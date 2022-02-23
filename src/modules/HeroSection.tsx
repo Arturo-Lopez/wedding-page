@@ -19,13 +19,12 @@ const HeroSectionContainer = styled("section", {
       'linear-gradient(hsla(0, 0%, 20%, 0.4), hsla(0, 0%, 50%, 0.6)), url("/images/main.jpeg")',
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
     position: "absolute",
     top: 0,
     left: 0,
     right: 0,
     bottom: 0,
-    filter: "blur(6px)",
-    margin: "-10px",
   },
 
   ".logo": {
@@ -37,8 +36,11 @@ const Title = styled("h1", {
   color: "$white",
   textAlign: "center",
   zIndex: 10,
-  fontSize: "$4",
+  fontSize: "8vw",
   margin: "0.5em 0",
+  "@lg": {
+    fontSize: "$4",
+  },
 });
 
 const HeroSection: FC = () => (

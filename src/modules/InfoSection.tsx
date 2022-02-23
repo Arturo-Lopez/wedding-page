@@ -80,10 +80,14 @@ const InfoSection: FC = () => (
       <Image src="/images/church.png" alt="church" width={60} height={60} />
       <h3 className="title">Ceremonia</h3>
       <p className="content">
-        Participa de la ceremonia, la cual se realizará en la XXXX a las XX:XX
-        del X de XXXX
+        Participa de la ceremonia religiosa, el cual se realizara en la Iglesia
+        Catedral a las 17:00hs del Sábado 19 de marzo del 2022.
       </p>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://goo.gl/maps/89b1R6cjrRbjizYe7"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Button>Ir a la ubicacion</Button>
       </a>
     </Card>
@@ -96,10 +100,14 @@ const InfoSection: FC = () => (
       />
       <h3 className="title">Recepción</h3>
       <p className="content">
-        Participa posteriormente con nosotros en la celebracion, la misma se
-        realizará en XXXX. <b>Niños Dulces Sueños</b>
+        Te esperamos posteriormente celebrar nuestra union en la Estacion Dubois
+        - Barrio San José. <b>Niños Dulces Sueños</b>
       </p>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://goo.gl/maps/NSG6Cq396n4594dNA"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Button>Ir a la ubicacion</Button>
       </a>
     </Card>
