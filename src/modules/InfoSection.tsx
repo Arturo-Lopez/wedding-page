@@ -80,8 +80,8 @@ const InfoSection: FC = () => (
       <Image src="/images/church.png" alt="church" width={60} height={60} />
       <h3 className="title">Ceremonia</h3>
       <p className="content">
-        Participa de la ceremonia religiosa, el cual se realizara en la Iglesia
-        Catedral a las 17:00hs del Sábado 19 de marzo del 2022.
+        Participa de la ceremonia religiosa, el cual se realizará en la Iglesia
+        Catedral San Blas a las 17:00hs el Sábado 19 de marzo del 2022
       </p>
       <a
         href="https://goo.gl/maps/89b1R6cjrRbjizYe7"
@@ -100,8 +100,12 @@ const InfoSection: FC = () => (
       />
       <h3 className="title">Recepción</h3>
       <p className="content">
-        Te esperamos posteriormente celebrar nuestra union en la Estacion Dubois
-        - Barrio San José. <b>Niños Dulces Sueños</b>
+        Te esperamos posteriormente para celebrar nuestra union en la Estacion
+        Dubois - Barrio San José.
+        <br />
+        <b>Niños Dulces Sueños</b>
+        <br />
+        <b>Tenida:</b> Elegante
       </p>
       <a
         href="https://goo.gl/maps/NSG6Cq396n4594dNA"

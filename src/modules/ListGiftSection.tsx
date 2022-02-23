@@ -24,7 +24,7 @@ const ListGiftSection: FC = () => (
   <ListGiftSectionContainer>
     <h2 className="title">Lista de bodas</h2>
     <p className="content">
-      Nuestro listados de compra lo puedes encontrar en los locales de{" "}
+      Nuestra lista de regalos lo puedes encontrar en los locales de{" "}
       <b>Olier y Tiendas Pilar</b>
     </p>
   </ListGiftSectionContainer>
