@@ -100,8 +100,8 @@ const InfoSection: FC = () => (
       />
       <h3 className="title">Recepción</h3>
       <p className="content">
-        Te esperamos posteriormente para celebrar nuestra union en la Estacion
-        Dubois - Barrio San José.
+        Te esperamos posteriormente para celebrar nuestra union en Estacion
+        Dubois.
         <br />
         <b>Niños Dulces Sueños</b>
         <br />

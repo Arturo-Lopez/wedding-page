@@ -45,13 +45,6 @@ const Title = styled("h1", {
 
 const HeroSection: FC = () => (
   <HeroSectionContainer>
-    <Image
-      src="/images/logo.png"
-      alt="logo"
-      width={170}
-      height={170}
-      className="logo"
-    />
     <Title>Lourdes Riveros y José Fariña</Title>
   </HeroSectionContainer>
 );
