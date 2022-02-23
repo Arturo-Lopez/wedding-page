@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { styled } from "@stitches";
-import Image from "next/image";
 
 const HeroSectionContainer = styled("section", {
   position: "relative",
@@ -9,9 +8,8 @@ const HeroSectionContainer = styled("section", {
   overflow: "hidden",
   padding: 20,
   display: "flex",
-  flexDirection: "column",
   justifyContent: "center",
-  alignItems: "center",
+  alignItems: "end",
 
   "&::before": {
     content: "",
