@@ -18,6 +18,10 @@ const ListGiftSectionContainer = styled("section", {
     maxWidth: 500,
     lineHeight: "1.5em",
   },
+  ".link": {
+    textDecoration: "underline",
+    color: "$white",
+  },
 });
 
 const ListGiftSection: FC = () => (
@@ -25,7 +29,14 @@ const ListGiftSection: FC = () => (
     <h2 className="title">Lista de bodas</h2>
     <p className="content">
       Nuestra lista de regalos lo puedes encontrar en los locales de{" "}
-      <b>Olier y Tiendas Pilar</b>
+      <b>Olier</b> y{" "}
+      <a
+        href="https://goo.gl/maps/QkdkLQsvKQY9vjwN7"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <b className="link">Tiendas Pilar</b>
+      </a>
     </p>
   </ListGiftSectionContainer>
 );

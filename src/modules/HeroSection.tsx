@@ -14,7 +14,7 @@ const HeroSectionContainer = styled("section", {
   "&::before": {
     content: "",
     backgroundImage:
-      'linear-gradient(hsla(0, 0%, 20%, 0.4), hsla(0, 0%, 50%, 0.6)), url("/images/main.jpeg")',
+      'linear-gradient(hsla(0, 0%, 40%, 0.1), hsla(0, 0%, 50%, 0.5)), url("/images/main-2.jpeg")',
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
