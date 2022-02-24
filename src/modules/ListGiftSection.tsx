@@ -29,7 +29,7 @@ const ListGiftSection: FC = () => (
     <h2 className="title">Lista de bodas</h2>
     <p className="content">
       Nuestra lista de regalos lo puedes encontrar en los locales de{" "}
-      <b>Olier</b> y{" "}
+      <b>Olier Ex-Aeropuerto</b> y{" "}
       <a
         href="https://goo.gl/maps/QkdkLQsvKQY9vjwN7"
         target="_blank"
